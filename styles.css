@@ -14,7 +14,7 @@ body {
 
 .heading {
     text-align: center;
-    color: #2E8B57;
+    color: crimson;
     font-family: 'Arial', sans-serif;
     font-size: 2em;
     margin-top: 20px;
@@ -44,7 +44,7 @@ ul {
 }
 
 a {
-    color: #2E8B57;
+    color: crimson;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -61,7 +61,7 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 0;
-    background-color: #2E8B57;
+    background-color: crimson;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -74,7 +74,7 @@ a:hover {
     display: block;
     padding: 16px 24px;
     text-decoration: none;
-    background-color: #2E8B57;
+    background-color: crimson;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .nav-links li a:hover {
-    background-color: #228B22;
+    background-color: crimson;
     color: white;
 }
 
@@ -108,7 +108,7 @@ a:hover {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 5px;
-    border-left: 4px solid #2E8B57;
+    border-left: 4px solid crimson;
 }
 
 .features-list,
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .member-contact {
-    color: #4682B4;
+    color: crimson;
     font-size: 0.9em;
     margin-top: 10px;
 }
@@ -199,13 +199,13 @@ a:hover {
     padding: 10px 20px;
     margin: 10px 0;
     background-color: #f9f9f9;
-    border-left: 4px solid #4682B4;
+    border-left: 4px solid crimson;
     border-radius: 3px;
 }
 
 .presentation-link {
     font-weight: bold;
-    color: #2E8B57;
+    color: crimson;
     font-size: 1.1em;
 }
 
@@ -221,7 +221,7 @@ a:hover {
 
 .back-link a {
     padding: 10px 20px;
-    background-color: #2E8B57;
+    background-color: crimson;
     color: white;
     border-radius: 5px;
     display: inline-block;
