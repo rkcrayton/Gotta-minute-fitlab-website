@@ -1,39 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gotta Minute Fit Lab</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gotta Minute Fit Lab</title>
+
+  <meta
+    name="description"
+    content="Gotta Minute Fit Lab — AI-powered fitness platform focused on one-minute, personalized workouts."
+  />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <div class="header">
-        <h1 class="heading">Gotta Minute Fit Lab</h1>
+  <!-- Universal Navigation -->
+  <div id="nav-mount"></div>
+
+  <!-- Hero / Landing Content -->
+  <main class="hero">
+    <div class="hero-inner">
+      <h1>Smarter fitness, one minute at a time</h1>
+
+      <p class="subtitle">
+        <strong>Gotta Minute Fit Lab</strong> aims to revolutionize fitness for busy
+        individuals by combining 3D body scan technology with AI-driven personalized
+        workout plans. Our goal is to deliver quick, effective one-minute workouts
+        tailored to each user’s body composition and fitness objectives—supported by
+        progress tracking and nutritional guidance.
+      </p>
+
+      <div class="social-proof">
+        <div class="pill" aria-label="Project info">
+          Senior Design • Spring 2026
+        </div>
+      </div>
+
+      <!-- Core Features -->
+      <section class="feature-grid" aria-label="Core Features">
+        <article class="feature">
+          <h2>Mobile Body Scan</h2>
+          <p>
+            Perform a quick body scan directly from a smartphone to capture posture,
+            movement, and physical measurements.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h2>3D Body Reconstruction</h2>
+          <p>
+            Dynamically reconstruct a 3D body model from scan data to analyze form,
+            symmetry, and movement patterns.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h2>Target-Area Identification</h2>
+          <p>
+            Identify areas requiring increased strength, improved mobility, or fat
+            reduction using scan-based analysis.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h2>Personalized Exercise Plans</h2>
+          <p>
+            Generate workouts using height, weight, occupation, and body-scan data,
+            tailored for home or gym environments.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h2>One-Minute Workouts</h2>
+          <p>
+            Deliver time-efficient workouts designed to fit seamlessly into a busy
+            schedule.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h2>Daily Prompts & Progress Tracking</h2>
+          <p>
+            Notify users throughout the day to complete short workouts and track total
+            activity to encourage consistency.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h2>Meal Suggestions</h2>
+          <p>
+            Provide suggested meals that align with the user’s fitness goals and
+            activity level.
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>© 2026 Gotta Minute Fit Lab • Capstone project website</p>
+      </footer>
     </div>
-    <div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="deliverables.html">Project Deliverables</a></li>
-                <li><a href="team.html">Meet the Team</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="content">
-        <h2 class="subheading">Project Goals</h2>
-        <p class="project-definition">
-            Gotta Minute Fit Lab aims to revolutionize fitness for busy individuals by combining 3D body scan technology with AI-driven personalized workout plans. Our goal is to deliver quick, effective 1-minute workout routines tailored to each user's body composition and fitness objectives, complete with progress tracking and nutritional guidance.
-        </p>
-        
-        <h2 class="subheading">Key Features</h2>
-        <ul class="features-list">
-            <li>3D body scan technology for precise body composition analysis.</li>
-            <li>Quick 1-minute workout routines designed for busy schedules.</li>
-            <li>AI-powered customizable fitness plans.</li>
-            <li>Target area focused exercises.</li>
-            <li>Progress tracking and analytics.</li>
-            <li>Personalized meal plan suggestions.</li>
-        </ul>
-    </div>
+  </main>
+
+  <!-- Shared Scripts -->
+  <script src="include-nav.js"></script>
+  <script src="nav.js" defer></script>
 </body>
 </html>
