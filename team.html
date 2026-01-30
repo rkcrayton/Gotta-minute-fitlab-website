@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meet the Team</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team • Gotta Minute Fit Lab</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <meta
+    name="description"
+    content="Meet the team behind the Gotta Minute Fit Lab capstone project."
+  />
 </head>
+
 <body>
-    <h1 class="heading">Gotta Minute Fit Lab - Meet the Team</h1>
-     <div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="deliverables.html">Project Deliverables</a></li>
-                <li><a href="team.html">Meet the Team</a></li>
-            </ul>
-        </nav>
+  <!-- Universal Navigation -->
+  <div id="nav-mount"></div>
+
+  <main class="hero hero-page">
+    <div class="hero-inner">
+      <h1>Meet the Team</h1>
+      <p class="subtitle">
+        The students behind <strong>Gotta Minute Fit Lab</strong>, a senior design
+        capstone project focused on AI-driven, time-efficient fitness solutions.
+      </p>
+
+      <!-- Team Grid -->
+      <section class="team-grid" aria-label="Team members">
+        <article class="team-card">
+          <div class="team-avatar">RC</div>
+          <h3>Raheem Crayton</h3>
+          <p class="team-role">Software Engineering</p>
+          <p class="team-contact">
+            <a href="mailto:rkcrayton@crimson.ua.edu">rkcrayton@crimson.ua.edu</a>
+          </p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar">BN</div>
+          <h3>Brandon Nguyen</h3>
+          <p class="team-role">Software Engineering</p>
+          <p class="team-contact">
+            <a href="mailto:bnguyen2@crimson.ua.edu">bnguyen2@crimson.ua.edu</a>
+          </p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar">LM</div>
+          <h3>Luke McArthur</h3>
+          <p class="team-role">Software Engineering</p>
+          <p class="team-contact">
+            <a href="mailto:lmcarthur@crimson.ua.edu">lmcarthur@crimson.ua.edu</a>
+          </p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar">EP</div>
+          <h3>Everett Potter</h3>
+          <p class="team-role">Software Engineering</p>
+          <p class="team-contact">
+            <a href="mailto:epotter1@crimson.ua.edu">epotter1@crimson.ua.edu</a>
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>© 2026 Gotta Minute Fit Lab • Capstone project website</p>
+      </footer>
     </div>
-    <div class="team-container">
-        <div class="team-member">
-            <div class="member-photo">
-                <img src="placeholder-photo.jpg" alt="Raheem Crayton">
-            </div>
-            <h3 class="member-name">Raheem Crayton</h3>
-            <p class="member-bio">Bio</p>
-            <p class="member-contact"><a href="mailto:rkcrayton@crimson.ua.edu">Contact: rkcrayton@crimson.ua.edu</a></p>
-        </div>
-        
-        <div class="team-member">
-            <div class="member-photo">
-                <img src="placeholder-photo.jpg" alt="Brandon Nguyen">
-            </div>
-            <h3 class="member-name">Brandon Nguyen</h3>
-            <p class="member-bio">Bio</p>
-            <p class="member-contact"><a href="mailto:bnguyen2@crimson.ua.edu">Contact: bnguyen2@crimson.ua.edu</a></p>
-        </div>
-        
-        <div class="team-member">
-            <div class="member-photo">
-                <img src="placeholder-photo.jpg" alt="Luke McArthur">
-            </div>
-            <h3 class="member-name">Luke McArthur</h3>
-            <p class="member-bio">Bio </p>
-            <p class="member-contact"><a href="mailto:lmcarthur@crimson.ua.edu">Contact: lmcarthur@crimson.ua.edu</a></p>
-        </div>
-        
-        <div class="team-member">
-            <div class="member-photo">
-                <img src="placeholder-photo.jpg" alt="Everett Potter">
-            </div>
-            <h3 class="member-name">Everett Potter</h3>
-            <p class="member-bio">Bio</p>
-            <p class="member-contact"><a href="mailto:epotter1@crimson.ua.edu">Contact: epotter1@crimson.ua.edu</a></p>
-        </div>
-    </div>
-    
-    <div class="back-link">
-        <a href="index.html">← Back to Home</a>
-    </div>
+  </main>
+
+  <!-- Shared Scripts -->
+  <script src="include-nav.js"></script>
+  <script src="nav.js" defer></script>
 </body>
 </html>
