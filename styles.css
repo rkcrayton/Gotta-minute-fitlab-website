@@ -350,12 +350,8 @@ h1{
 .team-img{
   width: 64px;
   height: 64px;
-  margin: 0 auto 12px;
   border-radius: 999px;
-  display: grid;
-  place-items: center;
-  font-weight: 800;
-  font-size: 18px;
+  display: block;
   object-fit: cover;
 }
 
