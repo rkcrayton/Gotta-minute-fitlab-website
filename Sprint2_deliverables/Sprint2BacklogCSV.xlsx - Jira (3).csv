@@ -1,0 +1,27 @@
+Issue Type,Issue key,Issue id,Summary,Assignee,Assignee Id,Priority,Status,Sprint,Sprint,Custom field (Story point estimate)
+Story,GMFL-44,10619,Progress tracking features,Brandon Nguyen,63c8573cd579d7c6875510ee,Highest,In Progress,GMFL Sprint 2,,
+Story,GMFL-42,10617,Customizable fitness plans generated from scan + user inputs,,,Highest,In Progress,GMFL Sprint 2,,
+Story,GMFL-72,10810,Cloud deployment,Raheem Crayton,630ec429316bbc56c424463c,Highest,Done,GMFL Sprint 2,,
+Story,GMFL-43,10618,AI-based target area identification,Raheem Crayton,630ec429316bbc56c424463c,Highest,Done,GMFL Sprint 2,,
+Task,GMFL-33,10480,allow user to 'do an exercise' that is in the exercise dataset,Luke McArthur,712020:9da60a5d-cd9f-4cb5-8063-ec32550401a6,High,To Do,GMFL Sprint 1,GMFL Sprint 2,3
+Task,GMFL-32,10479,Create sample dataset of workouts,Luke McArthur,712020:9da60a5d-cd9f-4cb5-8063-ec32550401a6,High,In Progress,GMFL Sprint 1,GMFL Sprint 2,1
+Task,GMFL-70,10776,Move tracking section to home screen,Brandon Nguyen,63c8573cd579d7c6875510ee,High,Done,GMFL Sprint 2,,3
+Task,GMFL-25,10440,Setting up backend server in Cloud,Raheem Crayton,630ec429316bbc56c424463c,High,Done,GMFL Sprint 1,GMFL Sprint 2,4
+Task,GMFL-71,10777,Setup built-in health app hook for android,,,Medium,To Do,GMFL Sprint 2,,5
+Task,GMFL-49,10624,Create testing framework for frontend,Brandon Nguyen,63c8573cd579d7c6875510ee,Medium,In Progress,GMFL Sprint 2,,5
+Task,GMFL-75,10813,Fine-tune measurement calculations,Luke McArthur,712020:9da60a5d-cd9f-4cb5-8063-ec32550401a6,Medium,Done,GMFL Sprint 2,,3
+Task,GMFL-74,10812,accept heic and hief image types (iphone),Luke McArthur,712020:9da60a5d-cd9f-4cb5-8063-ec32550401a6,Medium,Done,GMFL Sprint 2,,1
+Task,GMFL-69,10775,Create testing framework for backend,Brandon Nguyen,63c8573cd579d7c6875510ee,Medium,Done,GMFL Sprint 2,,5
+Task,GMFL-67,10773,Add more stats to track for tracking section,Brandon Nguyen,63c8573cd579d7c6875510ee,Medium,Done,GMFL Sprint 2,,5
+Task,GMFL-66,10772,Image sanitization (Issue from cyber),Brandon Nguyen,63c8573cd579d7c6875510ee,Medium,Done,GMFL Sprint 2,,3
+Task,GMFL-65,10771,Update workout plan to extend over a longer period of time (based on sponsor feedback),Everett Potter,63065529d25d0a5dd2bdbaa1,Medium,Done,GMFL Sprint 2,,1
+Task,GMFL-64,10770,User assigned a custom workout plan based on body fat percentage,Luke McArthur,712020:9da60a5d-cd9f-4cb5-8063-ec32550401a6,Medium,Done,GMFL Sprint 2,,3
+Task,GMFL-63,10769,"Build workout plan for the 3 tiers: beginner, intermediate, advanced",Everett Potter,63065529d25d0a5dd2bdbaa1,Medium,Done,GMFL Sprint 2,,3
+Task,GMFL-62,10768,Research different workouts for the various levels,Everett Potter,63065529d25d0a5dd2bdbaa1,Medium,Done,GMFL Sprint 2,,3
+Task,GMFL-56,10663,Establish thresholds to determine appropriate workout plan generation,Everett Potter,63065529d25d0a5dd2bdbaa1,Medium,Done,GMFL Sprint 2,,2
+Task,GMFL-55,10662,Determine which metrics are needed as threshold values,Everett Potter,63065529d25d0a5dd2bdbaa1,Medium,Done,GMFL Sprint 2,,2
+Task,GMFL-54,10661,Research determining signals for fitness level,Everett Potter,63065529d25d0a5dd2bdbaa1,Medium,Done,GMFL Sprint 2,,1
+Task,GMFL-48,10623,Water tracking on home page,Brandon Nguyen,63c8573cd579d7c6875510ee,Medium,Done,GMFL Sprint 2,,3
+Task,GMFL-10,10137,LLM Research,Raheem Crayton,630ec429316bbc56c424463c,Medium,Done,GMFL Sprint 2,,3
+Task,GMFL-61,10767,Update workout plan to reflect time vs reps,,,Low,To Do,GMFL Sprint 2,,2
+Task,GMFL-68,10774,Make user image input for users intuitive,Brandon Nguyen,63c8573cd579d7c6875510ee,Low,Done,GMFL Sprint 2,,3

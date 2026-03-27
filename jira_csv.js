@@ -55,18 +55,34 @@ function buildTable(rows, columns) {
     return html;
 }
 
-fetch('Sprint1_deliverables/Project_Planning_real.csv')
-    .then(r => r.text())
-    .then(text => {
-        const rows = parseCSV(text);
-        document.getElementById('planning-table').innerHTML =
-            buildTable(rows, ['Issue key', 'Summary', 'Assignee', 'Status', 'Due date']);
-    });
+// Sprint 1 data
+if (document.getElementById('planning-table')) {
+    fetch('Sprint1_deliverables/Project_Planning_real.csv')
+        .then(r => r.text())
+        .then(text => {
+            const rows = parseCSV(text);
+            document.getElementById('planning-table').innerHTML =
+                buildTable(rows, ['Issue key', 'Summary', 'Assignee', 'Status', 'Due date']);
+        });
+}
 
-fetch('Sprint1_deliverables/Project Backlog.csv')
-    .then(r => r.text())
-    .then(text => {
-        const rows = parseCSV(text);
-        document.getElementById('backlog-table').innerHTML =
-            buildTable(rows, ['Issue key', 'Summary', 'Assignee', 'Priority', 'Status']);
-    });
+if (document.getElementById('backlog-table')) {
+    fetch('Sprint1_deliverables/Project Backlog.csv')
+        .then(r => r.text())
+        .then(text => {
+            const rows = parseCSV(text);
+            document.getElementById('backlog-table').innerHTML =
+                buildTable(rows, ['Issue key', 'Summary', 'Assignee', 'Priority', 'Status']);
+        });
+}
+
+// Sprint 2 data
+if (document.getElementById('sprint2-backlog-table')) {
+    fetch('Sprint2_deliverables/Sprint2BacklogCSV.xlsx - Jira (3).csv')
+        .then(r => r.text())
+        .then(text => {
+            const rows = parseCSV(text);
+            document.getElementById('sprint2-backlog-table').innerHTML =
+                buildTable(rows, ['Issue key', 'Summary', 'Assignee', 'Priority', 'Status']);
+        });
+}
