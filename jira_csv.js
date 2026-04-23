@@ -86,3 +86,14 @@ if (document.getElementById('sprint2-backlog-table')) {
                 buildTable(rows, ['Issue key', 'Summary', 'Assignee', 'Priority', 'Status']);
         });
 }
+
+// Sprint 3 data
+if (document.getElementById('sprint3-backlog-table')) {
+    fetch('Sprint3_deliverables/Sprint3BacklogCSV.csv')
+        .then(r => r.text())
+        .then(text => {
+            const rows = parseCSV(text);
+            document.getElementById('sprint3-backlog-table').innerHTML =
+                buildTable(rows, ['Issue key', 'Summary', 'Assignee', 'Priority', 'Status']);
+        });
+}
