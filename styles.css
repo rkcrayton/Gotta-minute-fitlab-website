@@ -209,7 +209,10 @@ h1{
 .social-proof{
   margin-top: 22px;
   display:flex;
+  align-items:center;
   justify-content:center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 .pill{
   display:inline-flex;
